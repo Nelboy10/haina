@@ -111,7 +111,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const formData = new FormData(uploadForm);
 
         try {
-            const webhookUrl = 'https://hook.eu1.make.com/l6d4abesasg551cymc1fx5mst4k33v5j';
+            const webhookUrl = 'https://hook.eu2.make.com/q9b8fhqf3sr7ty14w2vv47kigrm4rxxg';
             const response = await fetch(webhookUrl, {
                 method: 'POST',
                 body: formData
